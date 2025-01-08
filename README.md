@@ -1,7 +1,10 @@
 ﻿# Day_1_Devops_Challenge/ Weatherdashboard
+
+ 
 ![Untitled Diagram drawio (1)](https://github.com/user-attachments/assets/7d2a2b76-f9b5-4786-b528-1be87b24cbbf)
 
-Today was the day 1 of Devops Challenge which included making a WeatherApp Dashboard using Openweather  app API and store the data in the AWS S3 Bucket.
+
+Today was the day 1 of Devops Challenge of CodeCrew which included making a WeatherApp Dashboard using Openweather  app API and store the data in the AWS S3 Bucket.
 
 # Prequisites for the project
 
@@ -36,7 +39,7 @@ weather-dashboard/
 ## Setup Instructions
 1. Clone the repository:
 --bash
-
+   git clone https://github.com/nikkadur/Day_1_Devops_Challenge.git
 
 3. Install dependencies:
 bashCopypip install -r requirements.txt
@@ -51,22 +54,26 @@ bashCopyaws configure
 5. Run the application:
 python src/weather_dashboard.py
 
+6. Output of the Application
+   Visit your S3 bucket and you will be able to see there would be two Buckets present in the region.
+
+7. Post the changes in your local environment to your github repository
+    use git push and your remote repository will have the changes same as your local repository.
+   
+
 What I Learned
 
 AWS S3 bucket creation and management
-Environment variable management for secure API keys
-Python best practices for API integration
-Git workflow for project development
+How important API keys are to communicate with the application and to store them in a secure way since they are sensitive.
+Python best practices to place environment variable
+what should be placed in a gitignore file
 Error handling in distributed systems
-Cloud resource management
+To collaborate with other people if you are stuck somewhere (Sometimes, Google or chatgpt does not have all the answers)
+Cloud resource management.
 
-Future Enhancements
+It was a great start to Day 1 of the challenge looking forward for more such challenges !
 
-Add weather forecasting
-Implement data visualization
-Add more cities
-Create automated testing
-Set up CI/CD pipeline
+
 . 
 
 
