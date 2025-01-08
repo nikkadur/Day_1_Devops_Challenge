@@ -74,9 +74,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KP41fs4jYL8HxBQTLFU0-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KP41fs4jYL8HxBQTLFU0-55" target="KP41fs4jYL8HxBQTLFU0-53">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="KP41fs4jYL8HxBQTLFU0-55" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json" vertex="1" parent="1">
           <mxGeometry x="590" y="337.8" width="70" height="75.8" as="geometry" />
         </mxCell>
@@ -94,6 +91,18 @@
         </mxCell>
         <mxCell id="KP41fs4jYL8HxBQTLFU0-63" value="Local Environment" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="29" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KP41fs4jYL8HxBQTLFU0-71" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="KP41fs4jYL8HxBQTLFU0-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="380" as="sourcePoint" />
+            <mxPoint x="600" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KP41fs4jYL8HxBQTLFU0-73" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="KP41fs4jYL8HxBQTLFU0-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="380" as="sourcePoint" />
+            <mxPoint x="710" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
