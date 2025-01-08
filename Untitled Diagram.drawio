@@ -30,16 +30,17 @@
             <mxPoint x="-7" y="185" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KP41fs4jYL8HxBQTLFU0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KP41fs4jYL8HxBQTLFU0-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="414" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="KP41fs4jYL8HxBQTLFU0-14" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="320" width="120" height="130" as="geometry" />
+          <mxGeometry x="346.75" y="350" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="KP41fs4jYL8HxBQTLFU0-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#FFD44F;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="363.25" y="333" width="73.5" height="84" as="geometry" />
+          <mxGeometry x="370" y="370" width="73.5" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="KP41fs4jYL8HxBQTLFU0-18" value="Python Script" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="376.75" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KP41fs4jYL8HxBQTLFU0-19" value="Local Encvironment" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
