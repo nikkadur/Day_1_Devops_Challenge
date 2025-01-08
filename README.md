@@ -26,30 +26,34 @@ Today was the day 1 of Devops Challenge of CodeCrew which included making a Weat
 * Since the data is stored in S3 bucket, helps in maintaing historical data of the same
 
 ## Project Structure
-weather-dashboard/
-  src/
-    __init__.py
-    weather_dashboard.py
-  tests/
-  data/
-  .env
-  .gitignore
-  requirements.txt
+```bash
+ -- weather-dashboard/
+    src/
+     __init__.py
+     weather_dashboard.py
+     tests/
+     data/
+     .env
+     .gitignore
+     requirements.txt
 
 ## Setup Instructions
 1. Clone the repository:
---bash
+```bash
    git clone https://github.com/nikkadur/Day_1_Devops_Challenge.git
 
 3. Install dependencies:
-bashCopypip install -r requirements.txt
+```bash
+  Copypip install -r requirements.txt
 
 4. Configure environment variables (.env):
-CopyOPENWEATHER_API_KEY=your_api_key
+```bash
+OPENWEATHER_API_KEY=your_api_key
 AWS_BUCKET_NAME=your_bucket_name
 
 4.Configure AWS credentials:
-bashCopyaws configure
+```bash
+aws configure
 
 5. Run the application:
 python src/weather_dashboard.py
@@ -60,16 +64,16 @@ python src/weather_dashboard.py
 7. Post the changes in your local environment to your github repository
     use git push and your remote repository will have the changes same as your local repository.
    
-
+```
 What I Learned
 
-AWS S3 bucket creation and management
-How important API keys are to communicate with the application and to store them in a secure way since they are sensitive.
-Python best practices to place environment variable
-what should be placed in a gitignore file
-Error handling in distributed systems
-To collaborate with other people if you are stuck somewhere (Sometimes, Google or chatgpt does not have all the answers)
-Cloud resource management.
+* AWS S3 bucket creation and management
+* How important API keys are to communicate with the application and to store them in a secure way since they are sensitive.
+* Python best practices to place environment variable
+* what should be placed in a gitignore file
+* Error handling in distributed systems
+* To collaborate with other people if you are stuck somewhere (Sometimes, Google or chatgpt does not have all the answers)
+* Cloud resource management.
 
 It was a great start to Day 1 of the challenge looking forward for more such challenges !
 
